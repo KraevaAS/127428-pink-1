@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Анна Краева](https://up.htmlacademy.ru/adaptive/10/user/127428).
-* Наставник: `Без наставника`.
+* Наставник: `Неизвестно`.
 
 ---
 
