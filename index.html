@@ -6,7 +6,117 @@
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+    <header class="intro">
+        <div class="intro__logo">
+          <h1>pink</h1>
+        </div>
+        <div class="hidden-menu">
+          <ul>
+            <li>
+              <span>Главная</span>
+            </li>
+            <li>
+              <a href="#">Фотографии</a>
+            </li>
+            <li>
+              <a href="#">Конкурс</a>
+            </li>
+            <li>
+              <a href="#">Html Academy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-image"></div>
+        <div class="header-bottom">
+          <a href="#" class="header-bottom__btn">Скачать приложение</a>
+          <div class="header-bottom__platforms">
+            <a href="#" class="header-bottom__platforms_apple"></a>
+            <a href="#" class="header-bottom__platforms_android"></a>
+            <a href="#" class="header-bottom__platforms_windows"></a>
+          </div>
+          <div class="header-bottom__description">
+            <span>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-container">
+        <div class="main-container__title">
+          <p>Устали от стресса и мегаполиса?</p>
+          <p>Нам есть, что вам предложить!</p>
+        </div>
+        <div class="info">
+          <div class="info-text">
+            <span class="info-text__title">Поднимает настроение</span>
+            <p class="info-text__description">Приложение позволит вампобудить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+          </div>
+          <div class="info-text">
+            <span class="info-text__title">Меняет мир вокруг</span>
+            <p class="info-text__description">Сделайте снимок и украсте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          </div>
+          <div class="info-text">
+            <span class="info-text__title">Заводит новых друзей</span>
+            <p class="info-text__description">Ставьте лайки, комментируйте, делитесь фотографиямис друзьями и заводите новых</p>
+          </div>
+        </div>
+        <div class="review">
+          <input class="review__input" type="radio" name="review-slider" value="1" id="review-1" checked>
+          <input class="review__input" type="radio" name="review-slider" value="2" id="review-2">
+          <input class="review__input" type="radio" name="review-slider" value="3" id="review-3">
+          <label class="review__label" for="review-1"></label>
+          <label class="review__label" for="review-2"></label>
+          <label class="review__label" for="review-3"></label>
+          <div class="review-inner">
+            <div class="review-inner1">
+              <span class="review-inner1__name">Николай Петров</span>
+              <span class="review-inner1__text">&laquo;Это приложение повернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женойв комментариях к выложенной фотографии!&raquo;</span>
+            </div>
+          </div>
+        </div>
+        <div class="price">
+          <input class="price__input" type="radio" name="price-slider" value="1" id="price-1">
+          <input class="price__input" type="radio" name="prise-slider" value="2" id="price-2" checked>
+          <input class="price__input" type="radio" name="prise-slider" value="3" id="price-3">
+          <label class="price__label" for="price-1"></label>
+          <label class="price__label" for="price-2"></label>
+          <label class="price__label" for="price-3"></label>
+          <div class="price-inner">
+            <div class="price-inner2">
+              <span class="price-inner2__hit">хит</span>
+              <div class="price-inner2 price-area">
+                <span class="price-inner2 price-area__name">стандарт</span>
+                <span class="price-inner2 price-area__price">3,99 USD</span>
+              </div>
+              <div class="price-inner2 list">
+                <ul>
+                  <li>Розовый фильтр</li>
+                  <li>Смайлики</li>
+                  <li>Комментарии</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="contacts">
+          <span class="contacts__top">Остались вопросы? Свяжитесь с нами!</span>
+        <div class="contacts-phone">
+          <span class="contacts-phone__title contacts__act">Звоните:</span>
+          <span class="contacts-phone__number contacts__contact">+7 (812) 555-66-66</span>
+        </div>
+        <div class="contacts-mail">
+          <span class="contacts-mail__title contacts__act">Пишите:</span>
+          <a href="#" class="contacts-mail__mail contacts__contact">mail.@htmlacademy.ru</a>
+        </div>
+        <div class="contacts-adress">
+          <span class="contacts-adress__title contacts__act">Приезжайте в гости:</span>
+          <a href="#" class="contacts-adress__adress contacts__contact">ул. Большая Конюшенная, 19/8</a>
+        </div>
+        <div class="map"></div>
+      </div>
+  </main>
 
   </body>
 </html>
